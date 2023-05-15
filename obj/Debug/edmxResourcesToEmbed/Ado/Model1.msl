@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище lolModelContainer" CdmEntityContainer="lolEntities">
+    <EntitySetMapping Name="Images3">
+      <EntityTypeMapping TypeName="lolModel.Images3">
+        <MappingFragment StoreEntitySet="Images3">
+          <ScalarProperty Name="Num" ColumnName="Num" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Barcodes" ColumnName="Barcodes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
